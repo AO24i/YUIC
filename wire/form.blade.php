@@ -1,4 +1,4 @@
-@props(['submit'])
+@props(['submit' => 'save'])
 
 <form wire:submit="{{ $submit }}">
 
