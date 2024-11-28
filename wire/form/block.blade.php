@@ -5,7 +5,7 @@
 	{{ $slot }}
 
 	@if (isset($actions))
-		<div class="mt-5 mb-4 d-flex justify-content-center align-items-middle">
+		<div class="mb-4 mt-5 d-flex justify-content-center align-items-middle">
 			{{ $actions }}
 		</div>
 	@endif
