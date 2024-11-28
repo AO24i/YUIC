@@ -8,7 +8,7 @@
 	};
 @endphp
 
-<div {{ $attributes->merge(['class' => $css . ' mt-3']) }} role="alert">
+<div {{ $attributes->merge(['class' => $css . ' mt-4']) }} role="alert">
 	@if ($errors->count() > 1)
 		<strong>Oops! Some errors occurred</strong>
 		<ul class="mt-2 list-disc list-inside text-sm">
