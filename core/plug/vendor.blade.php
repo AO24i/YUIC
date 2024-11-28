@@ -20,7 +20,7 @@
 	}
 @endphp
 @if ($isCSS)
-	<x-yale.plug.css href="{{ $href }}" tag="vendor" />
+	<x-yale.core.plug.css href="{{ $href }}" tag="vendor" />
 @elseif($isJS)
-	<x-yale.plug.js src="{{ $src }}" tag="vendor" />
+	<x-yale.core.plug.js src="{{ $src }}" tag="vendor" />
 @endif
