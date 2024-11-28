@@ -14,7 +14,7 @@
 @endphp
 
 @if ($isCSS)
-	<x-yale.plug.css href="css/{{ $href }}" tag="fontawesome" />
+	<x-yale.core.plug.css href="css/{{ $href }}" tag="fontawesome" />
 @elseif ($isJS)
-	<x-yale.plug.js :src="$src" tag="fontawesome" />
+	<x-yale.core.plug.js :src="$src" tag="fontawesome" />
 @endif
