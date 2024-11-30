@@ -40,6 +40,7 @@
 		<option value="">{{ $optionLabel }}</option>
 	@endif
 	@if (!empty($optionRow))
+
 		@foreach ($optionRow as $optionKey => $optionName)
 			<option value="{{ $optionKey }}" {{ $value === $optionKey ? 'selected' : '' }}>{{ $optionName }}</option>
 		@endforeach
