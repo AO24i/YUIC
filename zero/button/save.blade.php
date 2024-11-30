@@ -1,4 +1,4 @@
-@props(['label' => 'save', 'submit' => 'save', 'id' => null, 'module' => ''])
+@props(['label' => 'save', 'submit' => 'save', 'id' => 'actionBtn', 'module' => ''])
 @php
 	FormX::set()->button($label, $id, $module);
 @endphp
