@@ -11,7 +11,7 @@
     'css' => '',
 
     'placeholder' => null,
-    'ocomplete' => true,
+    'ocomplete' => false,
 
     'textrows' => 5,
 
@@ -26,7 +26,7 @@
     'okeyenter' => false,
 
     'label' => null,
-    'type' => null,
+    'type' => 'text',
 
     'class' => ' col-md-12',
     'td' => false,
