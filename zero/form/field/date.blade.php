@@ -14,4 +14,4 @@
     'ocomplete' => true,
 ])
 
-<x-yale.form.field.text :id="$id" :name="$name" :title="$title" :placeholder="$placeholder" :disable=$disable :obind=$obind :ochange=$ochange :validateJS=$validateJS :btnID=$btnID :value=$value :ocomplete=$ocomplete type="date" {{ $attributes }} />
+<x-yale.zero.form.field.text :id="$id" :name="$name" :title="$title" :placeholder="$placeholder" :disable=$disable :obind=$obind :ochange=$ochange :validateJS=$validateJS :btnID=$btnID :value=$value :ocomplete=$ocomplete type="date" {{ $attributes }} />
